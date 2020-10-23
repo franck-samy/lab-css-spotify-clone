@@ -34,10 +34,11 @@ nav{
 }
 
 ul{
-    list-style: none;
     display: flex;
     justify-content: flex-end;
-    margin: auto;
+    list-style: none;
+    margin: auto 0;
+
 }
 
 li{
@@ -71,6 +72,7 @@ a{
     display : flex;
     flex-direction: row;
     justify-content: center;
+   
 
 }
 
@@ -106,6 +108,9 @@ h3{
     color: #00B172;
     font-size: 26px;
     margin: 50px auto;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+
 }
 
 h4{
@@ -127,6 +132,7 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    witdh: 800px;
 }
 
 .white{
@@ -137,6 +143,7 @@ footer{
 
 .logowhite{
     width: 6vw;
+    position: absolute;
 }
 
 .imgapp{
@@ -145,7 +152,12 @@ footer{
 
 .titlefooter{
     display: flex;
-    justify-content: center;
     color: #ffffff;
     padding: 50px 0;
+    text-align: left;
+}
+
+footer p{
+    text-align: left;
+    margin-bottom: 50px;
 }
